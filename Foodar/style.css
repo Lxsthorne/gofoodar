@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100%;
+}
+a:visited, a:link {
+  text-decoration: none;
+  color: #ffe;
+}
+header {
+  margin: 0 1em;
+  height: 20%;
+}
+h3, .heading-text {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+h2 {
+  text-align: left;
+  text-transform: uppercase;
+}
+p {
+  word-spacing: 3px;
+}
+.how1{
+  margin: 3rem auto;
+  text-align: center;
+  max-width: 500px;
+  height: 100px;
+}
+form {
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+fieldset {
+  border: none;
+}
+.ffield {
+  display: flex;
+  flex-direction: column;
+  margin: 0em auto;
+}
+#fbox {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+}
+input {
+  margin: .5em;
+  height: 36px;
+  font-size: 18px;
+  padding: 2px;
+  padding-left: 4px;
+  border-radius: 3px;
+  background-color: #eee;
+}
+input:focus {
+  background-color: lightyellow;
+}
+button {
+  height: 60px;
+  width: 120px;
+  text-transform: uppercase;
+  color: #ffe;
+  font-size: 18px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: lightblue;
+}
+#ft {
+  margin: 0px;
+  height: 300px;
+  padding: 3em;
+  background-color: black;
+  color: #ffe;
+  width: 100%;
+}
+#menu {
+  display: flex;
+  flex-flow: row wrap;
+}
+#menu > div {
+  width: 25vw;
+  height: 200px;
+  margin: 0 auto;
+}
+#menu > div > h3, .ffield > h3 {
+  text-align: left;
+  margin-bottom: 1em;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: .5em 0;;
+}
